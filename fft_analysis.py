@@ -49,4 +49,4 @@ if __name__ == "__main__":
     types = annotations.symbol
 
     _, x = plot_segment(sig, r_peaks, types, 10)
-    plot_fft(x, 360, (0, 80))
+    plot_fft(x, 360, (0, 100))
